@@ -13,6 +13,10 @@ import { HeroDeviceMockupDemo } from "../skills/hero-device-mockup/demo";
 import { ConfettiBurstDemo } from "../skills/confetti-burst/demo";
 import { SpatialConceptCardDemo } from "../skills/spatial-concept-card/demo";
 import { InsightTextDropDemo } from "../skills/insight-text-drop/demo";
+import { CyberRadarScannerDemo } from "../skills/cyber-radar-scanner/demo";
+import { MetricDonutChartDemo } from "../skills/metric-donut-chart/demo";
+import { TelemetryDashboardDemo } from "../skills/telemetry-dashboard/demo";
+import { NeuralProcessingBoxDemo } from "../skills/neural-processing-box/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -125,6 +129,38 @@ export const Root: React.FC = () => {
         id="InsightTextDropDemo"
         component={InsightTextDropDemo}
         durationInFrames={270}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="CyberRadarScannerDemo"
+        component={CyberRadarScannerDemo}
+        durationInFrames={160}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="MetricDonutChartDemo"
+        component={MetricDonutChartDemo}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="TelemetryDashboardDemo"
+        component={TelemetryDashboardDemo}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="NeuralProcessingBoxDemo"
+        component={NeuralProcessingBoxDemo}
+        durationInFrames={120}
         fps={30}
         width={1080}
         height={1920}

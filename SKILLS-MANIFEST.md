@@ -3,7 +3,7 @@
 > 每次 Skill 验证通过后，在此文件中打 ✅ 并记录版本。  
 > `skills/` = 正在开发 | `skills-completed/` = 已完成可用
 
-**最后更新**: 2026-06-01 | **已完成**: 14 / 20
+**最后更新**: 2026-06-01 | **已完成**: 18 / 20
 
 ---
 
@@ -48,12 +48,12 @@
 | 15 | `GlobalDataRoute` | ⬜ 待开发 | — | — |
 | 16 | `LogicPathTracer` | ⬜ 待开发 | — | — |
 | 17 | `SvgMorphingIcon` | ⬜ 待开发 | — | — |
-| 18 | `CyberRadarScanner` | ⬜ 待开发 | — | — |
+| 18 | `CyberRadarScanner` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 19 | `DynamicMapTracer` | ⬜ 待开发 | — | — |
 | 20 | `VectorSpacePlotter` | ⬜ 待开发 | — | — |
-| 21 | `NeuralProcessingBox` | ⬜ 待开发 | — | — |
-| 22 | `MetricDonutChart` | ⬜ 待开发 | — | — |
-| 23 | `TelemetryDashboard` | ⬜ 待开发 | — | — |
+| 21 | `NeuralProcessingBox` | ✅ 完成 | v1.0 | 2026-06-01 |
+| 22 | `MetricDonutChart` | ✅ 完成 | v1.0 | 2026-06-01 |
+| 23 | `TelemetryDashboard` | ✅ 完成 | v1.0 | 2026-06-01 |
 
 ## 6. 高阶 HTML 交互 (HTML/CSS Interactive)
 
@@ -75,9 +75,9 @@
 | 架构导航 | 3 | 3 | 100% |
 | 理论概念 | 2 | 2 | 100% |
 | 实操界面 | 5 | 5 | 100% |
-| SVG 数据 | 9 | 0 | 0% |
+| SVG 数据 | 9 | 4 | 44% |
 | HTML 交互 | 5 | 0 | 0% |
-| **总计** | **28** | **14** | **50.0%** |
+| **总计** | **28** | **18** | **64.3%** |
 
 ---
 
@@ -88,5 +88,5 @@ P0: ✅ 全部完成 — NeonTypewriter · SpatialGlassContainer · SmartCameraR
 P1: ✅ 全部完成 — KineticChapterTitle · DataMetricCounter · CyberProgressTracker
 P2: ✅ 全部完成 — MacOsGlassWindow · NeonTerminal · 3DFlipContainer · HeroDeviceMockup · ConfettiBurst
 P3: ✅ 全部完成 — SpatialConceptCard · InsightTextDrop
-P4: SVG + HTML 交互
+P4: SVG 数据: CyberRadarScanner ✅ · MetricDonutChart ✅ · TelemetryDashboard ✅ · NeuralProcessingBox ✅ → 继续推进 SVG + HTML 交互
 ```
