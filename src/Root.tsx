@@ -7,6 +7,7 @@ import { KineticChapterTitleDemo } from "../skills/kinetic-chapter-title/demo";
 import { DataMetricCounterDemo } from "../skills/data-metric-counter/demo";
 import { CyberProgressTrackerDemo } from "../skills/cyber-progress-tracker/demo";
 import { MacOsGlassWindowDemo } from "../skills/macos-glass-window/demo";
+import { NeonTerminalDemo } from "../skills/neon-terminal/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -71,6 +72,14 @@ export const Root: React.FC = () => {
         id="MacOsGlassWindowDemo"
         component={MacOsGlassWindowDemo}
         durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="NeonTerminalDemo"
+        component={NeonTerminalDemo}
+        durationInFrames={300}
         fps={30}
         width={1080}
         height={1920}
