@@ -6,6 +6,7 @@ import { ZAxisTransitionDemo } from "../skills/zaxis-transition/demo";
 import { KineticChapterTitleDemo } from "../skills/kinetic-chapter-title/demo";
 import { DataMetricCounterDemo } from "../skills/data-metric-counter/demo";
 import { CyberProgressTrackerDemo } from "../skills/cyber-progress-tracker/demo";
+import { MacOsGlassWindowDemo } from "../skills/macos-glass-window/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -62,6 +63,14 @@ export const Root: React.FC = () => {
         id="CyberProgressTrackerDemo"
         component={CyberProgressTrackerDemo}
         durationInFrames={160}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="MacOsGlassWindowDemo"
+        component={MacOsGlassWindowDemo}
+        durationInFrames={150}
         fps={30}
         width={1080}
         height={1920}

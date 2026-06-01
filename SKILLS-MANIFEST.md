@@ -3,7 +3,7 @@
 > 每次 Skill 验证通过后，在此文件中打 ✅ 并记录版本。  
 > `skills/` = 正在开发 | `skills-completed/` = 已完成可用
 
-**最后更新**: 2026-06-01 | **已完成**: 7 / 20
+**最后更新**: 2026-06-01 | **已完成**: 8 / 20
 
 ---
 
@@ -35,7 +35,7 @@
 
 | # | Skill | 状态 | 版本 | 完成日期 |
 |---|-------|------|------|----------|
-| 10 | `MacOsGlassWindow` | ⬜ 待开发 | — | — |
+| 10 | `MacOsGlassWindow` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 11 | `NeonTerminal` | ⬜ 待开发 | — | — |
 | 12 | `3DFlipContainer` | ⬜ 待开发 | — | — |
 | 13 | `HeroDeviceMockup` | ⬜ 待开发 | — | — |
@@ -74,10 +74,10 @@
 | 核心基建 | 4 | 4 | 100% |
 | 架构导航 | 3 | 3 | 100% |
 | 理论概念 | 2 | 0 | 0% |
-| 实操界面 | 5 | 0 | 0% |
+| 实操界面 | 5 | 1 | 20% |
 | SVG 数据 | 9 | 0 | 0% |
 | HTML 交互 | 5 | 0 | 0% |
-| **总计** | **28** | **7** | **25.0%** |
+| **总计** | **28** | **8** | **28.6%** |
 
 ---
 
@@ -86,6 +86,6 @@
 ```
 P0: ✅ 全部完成 — NeonTypewriter · SpatialGlassContainer · SmartCameraRig · ZAxisTransition
 P1: ✅ 全部完成 — KineticChapterTitle · DataMetricCounter · CyberProgressTracker
-P2: MacOsGlassWindow → NeonTerminal → 3DFlipContainer
+P2: MacOsGlassWindow ✅ → NeonTerminal → 3DFlipContainer
 P3: 其余按需推进
 ```
