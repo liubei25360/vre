@@ -5,6 +5,7 @@ import { SmartCameraRigDemo } from "../skills/smart-camera-rig/demo";
 import { ZAxisTransitionDemo } from "../skills/zaxis-transition/demo";
 import { KineticChapterTitleDemo } from "../skills/kinetic-chapter-title/demo";
 import { DataMetricCounterDemo } from "../skills/data-metric-counter/demo";
+import { CyberProgressTrackerDemo } from "../skills/cyber-progress-tracker/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -53,6 +54,14 @@ export const Root: React.FC = () => {
         id="DataMetricCounterDemo"
         component={DataMetricCounterDemo}
         durationInFrames={270}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="CyberProgressTrackerDemo"
+        component={CyberProgressTrackerDemo}
+        durationInFrames={160}
         fps={30}
         width={1080}
         height={1920}
