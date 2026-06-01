@@ -28,7 +28,7 @@ import { InlineCodeDiffDemo } from "../skills/inline-code-diff/demo";
 import { ParallaxTiltContainerDemo } from "../skills/parallax-tilt-container/demo";
 import { InfiniteDataMarqueeDemo } from "../skills/infinite-data-marquee/demo";
 import { ProScreenshotShowcase } from "./showcases/ProScreenshotShowcase";
-import { CitationRevelationVideo } from "./showcases/CitationRevelationVideo";
+import { CitationOverlay } from "./showcases/CitationOverlay";
 
 export const Root: React.FC = () => {
   return (
@@ -266,9 +266,9 @@ export const Root: React.FC = () => {
         height={1920}
       />
       <Composition
-        id="CitationRevelationVideo"
-        component={CitationRevelationVideo}
-        durationInFrames={360}
+        id="CitationOverlay"
+        component={CitationOverlay}
+        durationInFrames={355}
         fps={30}
         width={1080}
         height={1920}
