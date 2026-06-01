@@ -8,6 +8,7 @@ import { DataMetricCounterDemo } from "../skills/data-metric-counter/demo";
 import { CyberProgressTrackerDemo } from "../skills/cyber-progress-tracker/demo";
 import { MacOsGlassWindowDemo } from "../skills/macos-glass-window/demo";
 import { NeonTerminalDemo } from "../skills/neon-terminal/demo";
+import { ThreeDFlipContainerDemo } from "../skills/three-d-flip-container/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -80,6 +81,14 @@ export const Root: React.FC = () => {
         id="NeonTerminalDemo"
         component={NeonTerminalDemo}
         durationInFrames={300}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ThreeDFlipContainerDemo"
+        component={ThreeDFlipContainerDemo}
+        durationInFrames={240}
         fps={30}
         width={1080}
         height={1920}
