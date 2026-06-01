@@ -90,5 +90,18 @@ P2: ✅ 全部完成 — MacOsGlassWindow · NeonTerminal · 3DFlipContainer · 
 P3: ✅ 全部完成 — SpatialConceptCard · InsightTextDrop
 P4: ✅ 全部完成 — 9 SVG 数据可视化 + 5 HTML 交互组件
 
-## 🎉 全部 28 个 Skill 完成！100%
+## Showcase 展示组合
+
+| # | Skill | 状态 | 版本 | 完成日期 |
+|---|-------|------|------|----------|
+| 29 | `GoldLineReveal` | ✅ 完成 | v1.0 | 2026-06-01 |
+
+### 展示视频
+
+| 名称 | 时长 | 音频 | 说明 |
+|------|------|------|------|
+| `ProScreenshotShowcase` | 5s | — | 截图 3D 倾斜 + zoom 聚焦 |
+| `CitationRevelationVideo` | 12s | ✅ 氛围 | 学术引用瀑布 → 金色启示 |
+
+## 🎉 全部 29 个 Skill + 2 个 Showcase 视频完成！100%
 ```

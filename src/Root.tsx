@@ -28,6 +28,7 @@ import { InlineCodeDiffDemo } from "../skills/inline-code-diff/demo";
 import { ParallaxTiltContainerDemo } from "../skills/parallax-tilt-container/demo";
 import { InfiniteDataMarqueeDemo } from "../skills/infinite-data-marquee/demo";
 import { ProScreenshotShowcase } from "./showcases/ProScreenshotShowcase";
+import { CitationRevelationVideo } from "./showcases/CitationRevelationVideo";
 
 export const Root: React.FC = () => {
   return (
@@ -260,6 +261,14 @@ export const Root: React.FC = () => {
         id="ProScreenshotShowcase"
         component={ProScreenshotShowcase}
         durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="CitationRevelationVideo"
+        component={CitationRevelationVideo}
+        durationInFrames={360}
         fps={30}
         width={1080}
         height={1920}
