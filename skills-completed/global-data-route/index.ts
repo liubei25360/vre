@@ -1,0 +1,1 @@
+export { GlobalDataRoute } from "./GlobalDataRoute";

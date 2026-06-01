@@ -1,0 +1,1 @@
+export { InfiniteDataMarquee } from "./InfiniteDataMarquee";

@@ -17,6 +17,16 @@ import { CyberRadarScannerDemo } from "../skills/cyber-radar-scanner/demo";
 import { MetricDonutChartDemo } from "../skills/metric-donut-chart/demo";
 import { TelemetryDashboardDemo } from "../skills/telemetry-dashboard/demo";
 import { NeuralProcessingBoxDemo } from "../skills/neural-processing-box/demo";
+import { GlobalDataRouteDemo } from "../skills/global-data-route/demo";
+import { LogicPathTracerDemo } from "../skills/logic-path-tracer/demo";
+import { SvgMorphingIconDemo } from "../skills/svg-morphing-icon/demo";
+import { DynamicMapTracerDemo } from "../skills/dynamic-map-tracer/demo";
+import { VectorSpacePlotterDemo } from "../skills/vector-space-plotter/demo";
+import { BentoGridMorpherDemo } from "../skills/bento-grid-morpher/demo";
+import { SpotlightGlassCardDemo } from "../skills/spotlight-glass-card/demo";
+import { InlineCodeDiffDemo } from "../skills/inline-code-diff/demo";
+import { ParallaxTiltContainerDemo } from "../skills/parallax-tilt-container/demo";
+import { InfiniteDataMarqueeDemo } from "../skills/infinite-data-marquee/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -161,6 +171,86 @@ export const Root: React.FC = () => {
         id="NeuralProcessingBoxDemo"
         component={NeuralProcessingBoxDemo}
         durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="GlobalDataRouteDemo"
+        component={GlobalDataRouteDemo}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="LogicPathTracerDemo"
+        component={LogicPathTracerDemo}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="SvgMorphingIconDemo"
+        component={SvgMorphingIconDemo}
+        durationInFrames={160}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="DynamicMapTracerDemo"
+        component={DynamicMapTracerDemo}
+        durationInFrames={200}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="VectorSpacePlotterDemo"
+        component={VectorSpacePlotterDemo}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="BentoGridMorpherDemo"
+        component={BentoGridMorpherDemo}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="SpotlightGlassCardDemo"
+        component={SpotlightGlassCardDemo}
+        durationInFrames={200}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="InlineCodeDiffDemo"
+        component={InlineCodeDiffDemo}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ParallaxTiltContainerDemo"
+        component={ParallaxTiltContainerDemo}
+        durationInFrames={240}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="InfiniteDataMarqueeDemo"
+        component={InfiniteDataMarqueeDemo}
+        durationInFrames={150}
         fps={30}
         width={1080}
         height={1920}

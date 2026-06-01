@@ -1,0 +1,1 @@
+export { SvgMorphingIcon } from "./SvgMorphingIcon";
