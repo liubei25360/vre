@@ -9,6 +9,10 @@ import { CyberProgressTrackerDemo } from "../skills/cyber-progress-tracker/demo"
 import { MacOsGlassWindowDemo } from "../skills/macos-glass-window/demo";
 import { NeonTerminalDemo } from "../skills/neon-terminal/demo";
 import { ThreeDFlipContainerDemo } from "../skills/three-d-flip-container/demo";
+import { HeroDeviceMockupDemo } from "../skills/hero-device-mockup/demo";
+import { ConfettiBurstDemo } from "../skills/confetti-burst/demo";
+import { SpatialConceptCardDemo } from "../skills/spatial-concept-card/demo";
+import { InsightTextDropDemo } from "../skills/insight-text-drop/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -89,6 +93,38 @@ export const Root: React.FC = () => {
         id="ThreeDFlipContainerDemo"
         component={ThreeDFlipContainerDemo}
         durationInFrames={240}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="HeroDeviceMockupDemo"
+        component={HeroDeviceMockupDemo}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ConfettiBurstDemo"
+        component={ConfettiBurstDemo}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="SpatialConceptCardDemo"
+        component={SpatialConceptCardDemo}
+        durationInFrames={360}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="InsightTextDropDemo"
+        component={InsightTextDropDemo}
+        durationInFrames={270}
         fps={30}
         width={1080}
         height={1920}

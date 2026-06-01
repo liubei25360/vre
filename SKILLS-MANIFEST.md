@@ -3,7 +3,7 @@
 > 每次 Skill 验证通过后，在此文件中打 ✅ 并记录版本。  
 > `skills/` = 正在开发 | `skills-completed/` = 已完成可用
 
-**最后更新**: 2026-06-01 | **已完成**: 10 / 20
+**最后更新**: 2026-06-01 | **已完成**: 14 / 20
 
 ---
 
@@ -28,8 +28,8 @@
 
 | # | Skill | 状态 | 版本 | 完成日期 |
 |---|-------|------|------|----------|
-| 8 | `SpatialConceptCard` | ⬜ 待开发 | — | — |
-| 9 | `InsightTextDrop` | ⬜ 待开发 | — | — |
+| 8 | `SpatialConceptCard` | ✅ 完成 | v1.0 | 2026-06-01 |
+| 9 | `InsightTextDrop` | ✅ 完成 | v1.0 | 2026-06-01 |
 
 ## 4. 实操与界面 (Execution & UI)
 
@@ -38,8 +38,8 @@
 | 10 | `MacOsGlassWindow` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 11 | `NeonTerminal` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 12 | `3DFlipContainer` | ✅ 完成 | v1.0 | 2026-06-01 |
-| 13 | `HeroDeviceMockup` | ⬜ 待开发 | — | — |
-| 14 | `ConfettiBurst` | ⬜ 待开发 | — | — |
+| 13 | `HeroDeviceMockup` | ✅ 完成 | v1.0 | 2026-06-01 |
+| 14 | `ConfettiBurst` | ✅ 完成 | v1.0 | 2026-06-01 |
 
 ## 5. 高阶矢量数据可视化 (SVG & Data Art)
 
@@ -73,11 +73,11 @@
 |------|------|------|------|
 | 核心基建 | 4 | 4 | 100% |
 | 架构导航 | 3 | 3 | 100% |
-| 理论概念 | 2 | 0 | 0% |
-| 实操界面 | 5 | 3 | 60% |
+| 理论概念 | 2 | 2 | 100% |
+| 实操界面 | 5 | 5 | 100% |
 | SVG 数据 | 9 | 0 | 0% |
 | HTML 交互 | 5 | 0 | 0% |
-| **总计** | **28** | **9** | **32.1%** |
+| **总计** | **28** | **14** | **50.0%** |
 
 ---
 
@@ -86,6 +86,7 @@
 ```
 P0: ✅ 全部完成 — NeonTypewriter · SpatialGlassContainer · SmartCameraRig · ZAxisTransition
 P1: ✅ 全部完成 — KineticChapterTitle · DataMetricCounter · CyberProgressTracker
-P2: MacOsGlassWindow ✅ → NeonTerminal ✅ → 3DFlipContainer
-P3: 其余按需推进
+P2: ✅ 全部完成 — MacOsGlassWindow · NeonTerminal · 3DFlipContainer · HeroDeviceMockup · ConfettiBurst
+P3: ✅ 全部完成 — SpatialConceptCard · InsightTextDrop
+P4: SVG + HTML 交互
 ```
