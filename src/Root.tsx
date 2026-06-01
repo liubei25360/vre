@@ -27,6 +27,7 @@ import { SpotlightGlassCardDemo } from "../skills/spotlight-glass-card/demo";
 import { InlineCodeDiffDemo } from "../skills/inline-code-diff/demo";
 import { ParallaxTiltContainerDemo } from "../skills/parallax-tilt-container/demo";
 import { InfiniteDataMarqueeDemo } from "../skills/infinite-data-marquee/demo";
+import { ProScreenshotShowcase } from "./showcases/ProScreenshotShowcase";
 
 export const Root: React.FC = () => {
   return (
@@ -250,6 +251,14 @@ export const Root: React.FC = () => {
       <Composition
         id="InfiniteDataMarqueeDemo"
         component={InfiniteDataMarqueeDemo}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="ProScreenshotShowcase"
+        component={ProScreenshotShowcase}
         durationInFrames={150}
         fps={30}
         width={1080}
