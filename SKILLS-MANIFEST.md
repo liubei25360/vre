@@ -3,7 +3,7 @@
 > 每次 Skill 验证通过后，在此文件中打 ✅ 并记录版本。  
 > `skills/` = 正在开发 | `skills-completed/` = 已完成可用
 
-**最后更新**: 2026-06-01 | **已完成**: 2 / 20
+**最后更新**: 2026-06-01 | **已完成**: 3 / 20
 
 ---
 
@@ -13,7 +13,7 @@
 |---|-------|------|------|----------|
 | 1 | `NeonTypewriter` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 2 | `SpatialGlassContainer` | ✅ 完成 | v1.0 | 2026-06-01 |
-| 3 | `SmartCameraRig` | ⬜ 待开发 | — | — |
+| 3 | `SmartCameraRig` | ✅ 完成 | v1.0 | 2026-06-01 |
 | 4 | `ZAxisTransition` | ⬜ 待开发 | — | — |
 
 ## 2. 架构与导航 (Structure & HUD)
@@ -71,20 +71,20 @@
 
 | 类别 | 总数 | 完成 | 进度 |
 |------|------|------|------|
-| 核心基建 | 4 | 2 | 50% |
+| 核心基建 | 4 | 3 | 75% |
 | 架构导航 | 3 | 0 | 0% |
 | 理论概念 | 2 | 0 | 0% |
 | 实操界面 | 5 | 0 | 0% |
 | SVG 数据 | 9 | 0 | 0% |
 | HTML 交互 | 5 | 0 | 0% |
-| **总计** | **28** | **2** | **7.1%** |
+| **总计** | **28** | **3** | **10.7%** |
 
 ---
 
 ## 🔄 开发顺序 (推荐)
 
 ```
-P0: NeonTypewriter ✅ → SpatialGlassContainer ✅ → SmartCameraRig → ZAxisTransition
+P0: NeonTypewriter ✅ → SpatialGlassContainer ✅ → SmartCameraRig ✅ → ZAxisTransition
 P1: KineticChapterTitle → DataMetricCounter → CyberProgressTracker
 P2: MacOsGlassWindow → NeonTerminal → 3DFlipContainer
 P3: 其余按需推进
