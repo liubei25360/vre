@@ -4,6 +4,7 @@ import { SpatialGlassContainerDemo } from "../skills/spatial-glass-container/dem
 import { SmartCameraRigDemo } from "../skills/smart-camera-rig/demo";
 import { ZAxisTransitionDemo } from "../skills/zaxis-transition/demo";
 import { KineticChapterTitleDemo } from "../skills/kinetic-chapter-title/demo";
+import { DataMetricCounterDemo } from "../skills/data-metric-counter/demo";
 
 export const Root: React.FC = () => {
   return (
@@ -43,6 +44,14 @@ export const Root: React.FC = () => {
       <Composition
         id="KineticChapterTitleDemo"
         component={KineticChapterTitleDemo}
+        durationInFrames={270}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="DataMetricCounterDemo"
+        component={DataMetricCounterDemo}
         durationInFrames={270}
         fps={30}
         width={1080}
