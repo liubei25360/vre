@@ -1,0 +1,1 @@
+export { KineticChapterTitle } from "./KineticChapterTitle";
