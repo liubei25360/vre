@@ -374,6 +374,7 @@ export const CitationOverlay: React.FC = () => {
         width: "100%",
         height: "100%",
         overflow: "hidden",
+        backgroundColor: "transparent",
       }}
     >
       <Sequence from={0} durationInFrames={120}>
