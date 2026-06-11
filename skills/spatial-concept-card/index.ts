@@ -1,0 +1,1 @@
+export { SpatialConceptCard } from "./SpatialConceptCard";
