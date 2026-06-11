@@ -13,5 +13,8 @@ public/
 hyperframes/
 remotion/
 
+# 剧本与局部素材（不上传远程）
+剧本/
+
 # Remotion 构建产物
 package-lock.json

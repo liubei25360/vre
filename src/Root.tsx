@@ -29,6 +29,42 @@ import { ParallaxTiltContainerDemo } from "../skills/parallax-tilt-container/dem
 import { InfiniteDataMarqueeDemo } from "../skills/infinite-data-marquee/demo";
 import { ProScreenshotShowcase } from "./showcases/ProScreenshotShowcase";
 import { CitationOverlay } from "./showcases/CitationOverlay";
+import { Effect01DeleteNoiseDemo } from "../skills/effect-01-delete-noise/demo";
+import { EFFECT_01_DURATION_FRAMES } from "../skills/effect-01-delete-noise";
+import { Effect02PopmartCardsDemo } from "../skills/effect-02-popmart-cards/demo";
+import { EFFECT_02_DURATION_FRAMES } from "../skills/effect-02-popmart-cards";
+import { Effect03AxeCategoriesDemo } from "../skills/effect-03-axe-categories/demo";
+import { EFFECT_03_DURATION_FRAMES } from "../skills/effect-03-axe-categories";
+import { Effect04GoldenQuoteDemo } from "../skills/effect-04-golden-quote/demo";
+import { EFFECT_04_DURATION_FRAMES } from "../skills/effect-04-golden-quote";
+import { Effect05CircuitNodesDemo } from "../skills/effect-05-circuit-nodes/demo";
+import { EFFECT_05_DURATION_FRAMES } from "../skills/effect-05-circuit-nodes";
+import { Effect06TermEvolutionDemo } from "../skills/effect-06-term-evolution/demo";
+import { EFFECT_06_DURATION_FRAMES } from "../skills/effect-06-term-evolution";
+import { Effect07NoiseSilenceDemo } from "../skills/effect-07-noise-silence/demo";
+import { EFFECT_07_DURATION_FRAMES } from "../skills/effect-07-noise-silence";
+import { Effect08GlassShatterDemo } from "../skills/effect-08-glass-shatter/demo";
+import { EFFECT_08_DURATION_FRAMES } from "../skills/effect-08-glass-shatter";
+import { Effect09GravityFilterDemo } from "../skills/effect-09-gravity-filter/demo";
+import { EFFECT_09_DURATION_FRAMES } from "../skills/effect-09-gravity-filter";
+import { Effect10LaserGatesDemo } from "../skills/effect-10-laser-gates/demo";
+import { EFFECT_10_DURATION_FRAMES } from "../skills/effect-10-laser-gates";
+import { Effect11SniperDeleteDemo } from "../skills/effect-11-sniper-delete/demo";
+import { EFFECT_11_DURATION_FRAMES } from "../skills/effect-11-sniper-delete";
+import { Effect12PromptTypewriterDemo } from "../skills/effect-12-prompt-typewriter/demo";
+import { EFFECT_12_DURATION_FRAMES } from "../skills/effect-12-prompt-typewriter";
+import { Effect13DeleteValueDemo } from "../skills/effect-13-delete-value/demo";
+import { EFFECT_13_DURATION_FRAMES } from "../skills/effect-13-delete-value";
+import { Effect14RlhfMirrorDemo } from "../skills/effect-14-rlhf-mirror/demo";
+import { EFFECT_14_DURATION_FRAMES } from "../skills/effect-14-rlhf-mirror";
+import { Effect15BarnumGridDemo } from "../skills/effect-15-barnum-grid/demo";
+import { EFFECT_15_DURATION_FRAMES } from "../skills/effect-15-barnum-grid";
+import { Effect16PopmartShelfDemo } from "../skills/effect-16-popmart-shelf/demo";
+import { EFFECT_16_DURATION_FRAMES } from "../skills/effect-16-popmart-shelf";
+import { Effect17MemoryFunnelDemo } from "../skills/effect-17-memory-funnel/demo";
+import { EFFECT_17_DURATION_FRAMES } from "../skills/effect-17-memory-funnel";
+import { Effect18AntiBarnumFilterDemo } from "../skills/effect-18-anti-barnum-filter/demo";
+import { EFFECT_18_DURATION_FRAMES } from "../skills/effect-18-anti-barnum-filter";
 
 export const Root: React.FC = () => {
   return (
@@ -269,6 +305,150 @@ export const Root: React.FC = () => {
         id="CitationOverlay"
         component={CitationOverlay}
         durationInFrames={355}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect01DeleteNoise"
+        component={Effect01DeleteNoiseDemo}
+        durationInFrames={EFFECT_01_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect02PopmartCards"
+        component={Effect02PopmartCardsDemo}
+        durationInFrames={EFFECT_02_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect03AxeCategories"
+        component={Effect03AxeCategoriesDemo}
+        durationInFrames={EFFECT_03_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect04GoldenQuote"
+        component={Effect04GoldenQuoteDemo}
+        durationInFrames={EFFECT_04_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect05CircuitNodes"
+        component={Effect05CircuitNodesDemo}
+        durationInFrames={EFFECT_05_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect06TermEvolution"
+        component={Effect06TermEvolutionDemo}
+        durationInFrames={EFFECT_06_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect07NoiseSilence"
+        component={Effect07NoiseSilenceDemo}
+        durationInFrames={EFFECT_07_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect08GlassShatter"
+        component={Effect08GlassShatterDemo}
+        durationInFrames={EFFECT_08_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect09GravityFilter"
+        component={Effect09GravityFilterDemo}
+        durationInFrames={EFFECT_09_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect10LaserGates"
+        component={Effect10LaserGatesDemo}
+        durationInFrames={EFFECT_10_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect11SniperDelete"
+        component={Effect11SniperDeleteDemo}
+        durationInFrames={EFFECT_11_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect12PromptTypewriter"
+        component={Effect12PromptTypewriterDemo}
+        durationInFrames={EFFECT_12_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect13DeleteValue"
+        component={Effect13DeleteValueDemo}
+        durationInFrames={EFFECT_13_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect14RlhfMirror"
+        component={Effect14RlhfMirrorDemo}
+        durationInFrames={EFFECT_14_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect15BarnumGrid"
+        component={Effect15BarnumGridDemo}
+        durationInFrames={EFFECT_15_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect16PopmartShelf"
+        component={Effect16PopmartShelfDemo}
+        durationInFrames={EFFECT_16_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect17MemoryFunnel"
+        component={Effect17MemoryFunnelDemo}
+        durationInFrames={EFFECT_17_DURATION_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="Effect18AntiBarnumFilter"
+        component={Effect18AntiBarnumFilterDemo}
+        durationInFrames={EFFECT_18_DURATION_FRAMES}
         fps={30}
         width={1080}
         height={1920}
